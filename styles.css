@@ -1,0 +1,57 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fce4ec; /* Color pastel de fondo */
+    color: #4a148c; /* Color de texto */
+}
+
+header
+ {
+    text-align: center;
+    padding: 20px;
+    background-color: #f48fb1; /* Color pastel para el header */
+}
+
+h1 {
+    margin: 0;
+}
+
+.ice-cream-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+.ice-cream-item {
+    margin: 15px;
+    text-align: center;
+    border: 5px solid #f3e66f; /* Marco adorable */
+    border-radius: 15px;
+    overflow: hidden;
+    transition: transform 0.3s; /* Animación al pasar el ratón */
+}
+
+.ice-cream-item img {
+    width: 200px; /* Tamaño fijo para las imágenes */
+    height: 200px;
+    border-radius: 15px 15px 0 0;
+}
+
+.ice-cream-item h2 {
+    margin: 10px 0 0;
+}
+
+.ice-cream-item:hover {
+    transform: scale(1.05); /* Efecto de aumento al pasar el ratón */
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #f48fb1; /* Color pastel para el footer */
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
